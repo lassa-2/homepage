@@ -11,6 +11,6 @@
     background-color: #fae76c;
 }
 
-, button:active {
-    background-color: #f6e683
+.button:active {
+    background-color: #faee9e;
 }

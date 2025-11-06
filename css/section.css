@@ -1,0 +1,16 @@
+.section {
+    padding: 5px;
+}
+
+.section__title {
+    color: #3d2902;
+}
+
+.section__citation {
+    color: #054609;
+    font-weight: bold;
+}
+
+.section__strong {
+    color: #3d2902
+}

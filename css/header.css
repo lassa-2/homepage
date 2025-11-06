@@ -1,0 +1,21 @@
+.header__title {
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.header__image {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header__poem {
+    color: #f3dc45;
+    background-color: #3d2902;
+    padding: 10px;
+    max-width: 350px;
+    border-radius: 20%;
+    text-align: center;
+    margin: 0 auto 40px;
+}

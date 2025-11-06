@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.page {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #333;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    padding: 0 20px;
+    background-color: #eee;
+}
+
+.page--color {
+    background-color: rgb(248, 247, 204);
+}

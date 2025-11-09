@@ -1,10 +1,21 @@
-console.log('Have a good day!');
+{
+    const welcome = () => {
+        console.log('Have a good day!');
+    }
 
-let button = document.querySelector(".js-changeBackgroundButton");
-let page = document.querySelector(".js-pageBackgroundChange");
-let backgroundColor = document.querySelector(".js-backgroundColor");
+    const toggleBackground = () => {
+        const page = document.querySelector(".js-pageBackgroundChange");
+        const backgroundColor = document.querySelector(".js-backgroundColor");
+        page.classList.toggle("page--color");
+        backgroundColor.innerText = page.classList.contains("page--color") ? "białe" : "kremowe";
+    };
 
-button.addEventListener("click", () => {
-    page.classList.toggle("page--color");
-    backgroundColor.innerText = page.classList.contains("page--color") ? "białe" : "kremowe";
-});
+    const init = () => {
+        const button = document.querySelector(".js-changeBackgroundButton");
+        button.addEventListener("click", toggleBackground);
+
+        welcome();
+    };
+
+    init();
+};

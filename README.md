@@ -36,7 +36,7 @@ This project focuses purely on the fundamentals of the core front-end technologi
 * **CSS3:** Used for styling, layout, and achieving a basic responsive design.
     * Styles were organized into multiple separate files (e.g., `header.css`, `button.css`) to practice **modular CSS** structure.
     * The **Normalize.css** library was used for consistent rendering across browsers.
-* **JavaScript (Vanilla JS):** A basic script was implemented to handle **DOM manipulation** by toggling a CSS class (`.page--color`) to change the page's appearance.
+* **Modern JavaScript:** A basic script was implemented to handle **DOM manipulation** by toggling a CSS class (`.page--color`) to change the page's appearance.
 
 ---
 
@@ -56,6 +56,7 @@ While working on this project, I focused on practicing and understanding the fol
 ## Author
 
 **Małgorzata Wiewióra** - [my GitHub profile](https://github.com/mg-wiewiora)
+
 
 
 

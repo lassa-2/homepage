@@ -1,8 +1,4 @@
 {
-    const welcome = () => {
-        console.log('Have a good day!');
-    }
-
     const toggleBackground = () => {
         const page = document.querySelector(".js-pageBackgroundChange");
         const backgroundColor = document.querySelector(".js-backgroundColor");
